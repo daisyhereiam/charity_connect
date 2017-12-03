@@ -1,0 +1,35 @@
+@import 'variables';
+section {
+    margin: 5%;
+    .btn-outline-success {
+        border-color: $primary-color;
+        color: $primary-color;
+    }
+    h3 {
+        font-family: $font-stack;
+        font-weight: bold;
+        color: #3d3c3c;
+    }
+    .btn-outline-success {
+        font-size: 16px;
+        font-weight: bold;
+    }
+}
+@media screen and (max-width: 575px) {
+    section {
+        margin: 10% 0;
+        h3 {
+            font-size: 24px;
+        }
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    section {
+        margin: 3% 0;
+    } 
+ }
+ @media screen and (min-width: 768px) {
+    section {
+        margin: 5% 0;
+    }
+}

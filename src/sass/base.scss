@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+@import 'variables';
+body {    
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;    
+}
+.container-fluid {
+    max-width: 1125px;
+}
+#the_stage {
+    background: url(../images/bitmap@3x.jpg) no-repeat center center;
+    text-align: center;
+    min-height: 464px;
+}
+h1 {
+    font-size: 36px;   
+    font-family: $font-stack; 
+    font-weight: bold; 
+    color: #f6f9fa;
+    text-shadow: 0 1px 2px rgba(29, 1, 99, 0.5), 0 2px 4px rgba(102, 101, 100, 0.2);
+    margin: 15% 0 10% 0;
+}
+.btn-primary {
+    background-color: $primary-color;
+    border-color: $primary-color;
+    background-color: #8554ff;
+    //box-shadow: inset 0 -1px 0 0 rgba(29, 1, 99, 0.5);
+    border-radius: 5px;
+    margin-bottom: 15%;
+}
+h6 {
+    color: #f6f9fa;
+    font-family: $font-stack;
+}
+a.page_anchor {
+    color: #79f2f2;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.btn-outline-success {
+    border-color: #fff;
+    background-color: transparent;
+    color: #fff;
+    font-size: 0.8rem;
+}
+.explore_content {
+    background: url(../images/group.png) no-repeat left center;
+    min-height: 143px;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    h6 {
+    height: 143px;
+    line-height: 143px;
+    vertical-align: middle;
+    }
+}
+#the_stage {
+    .col-12 {
+        padding: 0 !important;
+    }
+}
+.clear {
+    clear: both !important;
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    
+}
